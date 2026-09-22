@@ -16,12 +16,12 @@ module adder4(
 
 	wire cout[3:0];
 	
-	fulladd addc0 (
-		.x(a[0]),
-		.y(b[0]),
-		.cin(1'b0),
-		.sum(result[0],
-		.cout(cout[0]));
+	fulladd addc0 
+	(.x(a[0]),
+	.y(b[0]),
+	.cin(1'b0),
+	.sum(result[0],
+	.cout(cout[0]));
 
 	fulladd addc1 (
 		.x(a[1],
