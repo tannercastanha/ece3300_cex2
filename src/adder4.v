@@ -25,7 +25,7 @@ module adder4(
 		);
 
 	fulladd addc1 (
-		.x(a[1],
+		.x(a[1]),
 		.y(b[1]),
 		.cin(carry[0]),
 		.sum(result[1]),
@@ -33,7 +33,7 @@ module adder4(
 		);
 
 	fulladd addc2 (
-		.x(a[2],
+		.x(a[2]),
 		.y(b[2]),
 		.cin(carry[1]),
 		.sum(result[2]),
@@ -41,7 +41,7 @@ module adder4(
 		);
 
 	fulladd addc3 (
-		.x(a[3],
+		.x(a[3]),
 		.y(b[3]),
 		.cin(carry[2]),
 		.sum(result[3]),
